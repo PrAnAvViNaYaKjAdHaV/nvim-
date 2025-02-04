@@ -6,6 +6,6 @@ return {
     "MunifTanjim/nui.nvim",
   },
   opts = function(_, opts)
-    opts.window.position = 'float'
+    opts.window.position = 'right'
   end
 }

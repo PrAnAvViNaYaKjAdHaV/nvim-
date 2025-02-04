@@ -12,3 +12,5 @@
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })  -- Set normal text background to none
 
 vim.api.nvim_set_hl(0, "Comment", { bg = "none" }) -- Set comment background to none
+
+vim.api.nvim_set_keymap('n', '<leader>oo', ':ObsidianOpen<CR>', { noremap = true, silent = true })
