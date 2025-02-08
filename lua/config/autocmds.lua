@@ -7,10 +7,4 @@
 -- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
 
-
-
-vim.api.nvim_set_hl(0, "Normal", { bg = "none" })  -- Set normal text background to none
-
-vim.api.nvim_set_hl(0, "Comment", { bg = "none" }) -- Set comment background to none
-
 vim.api.nvim_set_keymap('n', '<leader>oo', ':ObsidianOpen<CR>', { noremap = true, silent = true })
