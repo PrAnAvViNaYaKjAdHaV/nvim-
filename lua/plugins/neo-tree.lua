@@ -6,6 +6,8 @@ return {
     "MunifTanjim/nui.nvim",
   },
   opts = function(_, opts)
-    opts.window.position = 'right'
-  end
+    opts.window.position = "right"
+    vim.cmd([[highlight NeoTreeNormal guibg=NONE]]) -- Change background color
+    vim.cmd([[highlight NeoTreeNormalNC guibg=NONE]]) -- For non-current windows
+  end,
 }
